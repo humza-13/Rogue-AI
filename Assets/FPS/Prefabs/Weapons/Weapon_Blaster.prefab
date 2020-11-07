@@ -198,13 +198,20 @@ MonoBehaviour:
   ammoReloadRate: 16
   ammoReloadDelay: 1
   maxAmmo: 16
+  automaticReleaseOnCharged: 0
   maxChargeDuration: 2
   ammoUsedOnStartCharge: 1
   ammoUsageRateWhileCharging: 2
+  weaponAnimator: {fileID: 0}
   muzzleFlashPrefab: {fileID: 748781637555137343, guid: 9f671b22f25370048a18fb1f821294ec,
     type: 3}
+  unparentMuzzleFlash: 0
   shootSFX: {fileID: 8300000, guid: 53d2238f4c4b2aa4f8e559c7af9e0126, type: 3}
   changeWeaponSFX: {fileID: 8300000, guid: 7b83d61917ac1224f942a0609b1221f2, type: 3}
+  useContinuousShootSound: 0
+  continuousShootStartSFX: {fileID: 0}
+  continuousShootLoopSFX: {fileID: 0}
+  continuousShootEndSFX: {fileID: 0}
 --- !u!114 &8745372878802205896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -217,6 +224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc94179cece5b4e41ae9298ddbf83fdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SimultaneousFuelCellsUsage: 0
   fuelCells:
   - {fileID: 6867164318175680859}
   - {fileID: 6867164318175680855}
@@ -237,7 +245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   steamVFX: {fileID: 1818117475793052272}
-  steamVFXEmissionRateMax: 8
+  steamVFXEmissionRateMax: 0.25
   overheatGradient:
     serializedVersion: 2
     key0: {r: 0, g: 2.6398654, b: 0, a: 1}
@@ -547,6 +555,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -559,6 +569,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -571,6 +582,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6867164318175680851
 GameObject:
   m_ObjectHideFlags: 0
@@ -625,6 +637,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -636,6 +650,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -648,6 +663,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6867164318175680853
 GameObject:
   m_ObjectHideFlags: 0
@@ -703,6 +719,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -715,6 +733,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -727,6 +746,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6867164318175680855
 GameObject:
   m_ObjectHideFlags: 0
@@ -782,6 +802,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -794,6 +816,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -806,6 +829,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6867164318175680857
 GameObject:
   m_ObjectHideFlags: 0
@@ -860,6 +884,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -871,6 +897,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -883,6 +910,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6867164318175680859
 GameObject:
   m_ObjectHideFlags: 0
@@ -938,6 +966,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -950,6 +980,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -962,6 +993,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6867164318175680861
 GameObject:
   m_ObjectHideFlags: 0
@@ -1054,6 +1086,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1065,6 +1099,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -1077,6 +1112,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8088409166493606719
 GameObject:
   m_ObjectHideFlags: 0
@@ -1354,16 +1390,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6867164318176036221}
     m_Modifications:
-    - target: {fileID: 5449920494797286051, guid: 21c8bd050f24da54285f8a3987ee6253,
-        type: 3}
-      propertyPath: m_Name
-      value: VFX_OverheatPrimary
-      objectReference: {fileID: 0}
-    - target: {fileID: 5449920494797286051, guid: 21c8bd050f24da54285f8a3987ee6253,
-        type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5338991494728519494, guid: 21c8bd050f24da54285f8a3987ee6253,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1417,6 +1443,16 @@ PrefabInstance:
     - target: {fileID: 5338991494728519494, guid: 21c8bd050f24da54285f8a3987ee6253,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5449920494797286051, guid: 21c8bd050f24da54285f8a3987ee6253,
+        type: 3}
+      propertyPath: m_Name
+      value: VFX_OverheatPrimary
+      objectReference: {fileID: 0}
+    - target: {fileID: 5449920494797286051, guid: 21c8bd050f24da54285f8a3987ee6253,
+        type: 3}
+      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
