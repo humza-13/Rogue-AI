@@ -12,6 +12,7 @@ public class PlayerInputHandler : MonoBehaviour
     public bool invertYAxis = false;
     [Tooltip("Used to flip the horizontal input axis")]
     public bool invertXAxis = false;
+    
 
     GameFlowManager m_GameFlowManager;
     PlayerCharacterController m_PlayerCharacterController;

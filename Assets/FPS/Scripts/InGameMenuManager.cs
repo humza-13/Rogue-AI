@@ -21,13 +21,18 @@ public class InGameMenuManager : MonoBehaviour
     public GameObject controlImage;
 
     PlayerInputHandler m_PlayerInputsHandler;
+    RiddleActivator riddle;
     Health m_PlayerHealth;
     FramerateCounter m_FramerateCounter;
+
 
     void Start()
     {
         m_PlayerInputsHandler = FindObjectOfType<PlayerInputHandler>();
         DebugUtility.HandleErrorIfNullFindObject<PlayerInputHandler, InGameMenuManager>(m_PlayerInputsHandler, this);
+
+        riddle = FindObjectOfType<RiddleActivator>();
+        DebugUtility.HandleErrorIfNullFindObject<RiddleActivator, InGameMenuManager>(riddle, this);
 
         m_PlayerHealth = m_PlayerInputsHandler.GetComponent<Health>();
         DebugUtility.HandleErrorIfNullGetComponent<Health, InGameMenuManager>(m_PlayerHealth, this, gameObject);
@@ -53,7 +58,7 @@ public class InGameMenuManager : MonoBehaviour
     private void Update()
     {
         // Lock cursor when clicking outside of menu
-        if (!menuRoot.activeSelf && Input.GetMouseButtonDown(0))
+        if (!menuRoot.activeSelf && Input.GetMouseButtonDown(0) && !riddle.RiddleWindow.activeSelf)
         {
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
