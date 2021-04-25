@@ -9,5 +9,6 @@ public class RiddleSetting
     public string description;
     public string hints;
     public string answer;
+    public int riddle_score;
 
 }

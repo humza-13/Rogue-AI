@@ -11,11 +11,16 @@ public class RiddleActivator : MonoBehaviour
     public GameObject HintWindow;
     PlayerInputHandler m_PlayerInputsHandler;
     InGameMenuManager menu;
+    public GameObject riddle_hat;
 
     public RiddleSetting riddle_setting;
     public TextMeshProUGUI r_title;
     public TextMeshProUGUI r_description;
-   
+    public TextMeshProUGUI r_time;
+    public InputField answer_input;
+    private bool start_time = false;
+    private float time = 0;
+    private string player_answer;
     
     public TextMeshProUGUI h_title;
     public TextMeshProUGUI h_description;
@@ -30,8 +35,8 @@ public class RiddleActivator : MonoBehaviour
         menu = FindObjectOfType<InGameMenuManager>();
         DebugUtility.HandleErrorIfNullFindObject<InGameMenuManager, RiddleActivator>(menu, this);
 
-       
 
+        riddle_hat.SetActive(true);
         RiddleWindow.SetActive(false);
         HintWindow.SetActive(false);
     }
@@ -43,6 +48,12 @@ public class RiddleActivator : MonoBehaviour
         {
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
+        }
+
+        if (start_time == true)
+        {
+            time += Time.unscaledDeltaTime;
+            r_time.text = time.ToString("F0");
         }
        
 
@@ -65,7 +76,7 @@ public class RiddleActivator : MonoBehaviour
             Time.timeScale = 0f;
             r_title.text = riddle_setting.title;
             r_description.text = riddle_setting.description;
-           
+            start_time = true;
 
             EventSystem.current.SetSelectedGameObject(null);
 
@@ -92,6 +103,32 @@ public class RiddleActivator : MonoBehaviour
     public void CloseHint()
     {
         HintWindow.SetActive(false);  
+    }
+
+    public void GetAnswer()
+    {
+        player_answer = answer_input.text;
+        CheckAnswer(player_answer);
+
+    }
+
+    public void CheckAnswer(string input)
+    {
+        if (input.Equals(riddle_setting.answer))
+        {
+            start_time = false;
+            time /= 60;
+            Debug.Log(input);
+            Debug.Log(time);
+            time = 0;
+            riddle_hat.SetActive(false);
+            CloseRiddle();
+            
+        }
+        else
+        {
+            Debug.Log("false");
+        }
     }
 
 
