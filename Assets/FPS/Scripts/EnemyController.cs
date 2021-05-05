@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Events;
 
+
 [RequireComponent(typeof(Health), typeof(Actor), typeof(NavMeshAgent))]
 public class EnemyController : MonoBehaviour
 {
@@ -103,6 +104,7 @@ public class EnemyController : MonoBehaviour
 
     int m_PathDestinationNodeIndex;
     EnemyManager m_EnemyManager;
+    
     ActorsManager m_ActorsManager;
     Health m_Health;
     Actor m_Actor;
@@ -114,6 +116,10 @@ public class EnemyController : MonoBehaviour
     WeaponController m_CurrentWeapon;
     WeaponController[] m_Weapons;
     NavigationModule m_NavigationModule;
+    public PlayerStats stats;
+    
+    
+  
 
     void Start()
     {
@@ -124,6 +130,8 @@ public class EnemyController : MonoBehaviour
         DebugUtility.HandleErrorIfNullFindObject<ActorsManager, EnemyController>(m_ActorsManager, this);
 
         m_EnemyManager.RegisterEnemy(this);
+
+        stats = FindObjectOfType<PlayerStats>();
 
         m_Health = GetComponent<Health>();
         DebugUtility.HandleErrorIfNullGetComponent<Health, EnemyController>(m_Health, this, gameObject);
@@ -363,6 +371,10 @@ public class EnemyController : MonoBehaviour
             Instantiate(lootPrefab, transform.position, Quaternion.identity);
         }
 
+        // call increase score of player stats to give kill score
+        stats.IncreaseKillScore();
+
+      
         // this will call the OnDestroy function
         Destroy(gameObject, deathDuration);
     }
@@ -474,4 +486,6 @@ public class EnemyController : MonoBehaviour
             m_LastTimeWeaponSwapped = Mathf.NegativeInfinity;
         }
     }
+  
+
 }

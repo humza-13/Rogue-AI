@@ -7,21 +7,28 @@ using TMPro;
 
 public class RiddleActivator : MonoBehaviour
 {
+    [Header("UI Elements")]
     public GameObject RiddleWindow;
     public GameObject HintWindow;
+    
     PlayerInputHandler m_PlayerInputsHandler;
     InGameMenuManager menu;
+    [Header("Riddle Object")]
     public GameObject riddle_hat;
-
+    
     public RiddleSetting riddle_setting;
+    public PlayerStats stats;
+    [Header("Window Elements")]
     public TextMeshProUGUI r_title;
     public TextMeshProUGUI r_description;
     public TextMeshProUGUI r_time;
+    public GameObject r_tryAgain;
     public InputField answer_input;
+    
     private bool start_time = false;
     private float time = 0;
     private string player_answer;
-    
+    [Header("Hint Window Elements")]
     public TextMeshProUGUI h_title;
     public TextMeshProUGUI h_description;
     
@@ -35,10 +42,14 @@ public class RiddleActivator : MonoBehaviour
         menu = FindObjectOfType<InGameMenuManager>();
         DebugUtility.HandleErrorIfNullFindObject<InGameMenuManager, RiddleActivator>(menu, this);
 
+        stats = FindObjectOfType<PlayerStats>();
 
+        //setting all riddle and hint windows inactive and riddle object to active
         riddle_hat.SetActive(true);
         RiddleWindow.SetActive(false);
         HintWindow.SetActive(false);
+        r_tryAgain.SetActive(false);
+      
     }
 
     private void Update()
@@ -50,8 +61,10 @@ public class RiddleActivator : MonoBehaviour
             Cursor.visible = false;
         }
 
+        // checking if riddle is activated 
         if (start_time == true)
         {
+            // starting time for riddle
             time += Time.unscaledDeltaTime;
             r_time.text = time.ToString("F0");
         }
@@ -61,6 +74,7 @@ public class RiddleActivator : MonoBehaviour
 
         private void OnTriggerEnter(Collider other)
     {
+        // opening riddle on trigger
         openRiddle();
     }
 
@@ -75,6 +89,8 @@ public class RiddleActivator : MonoBehaviour
             Cursor.visible = true;
             Time.timeScale = 0f;
             r_title.text = riddle_setting.title;
+            // formatting input string
+            riddle_setting.description = riddle_setting.description.Replace(".", "." + System.Environment.NewLine);
             r_description.text = riddle_setting.description;
             start_time = true;
 
@@ -87,6 +103,7 @@ public class RiddleActivator : MonoBehaviour
     public void OpenHintWindow()
     {
         h_title.text = riddle_setting.title;
+        riddle_setting.hints = riddle_setting.hints.Replace(".", "." + System.Environment.NewLine);
         h_description.text = riddle_setting.hints;
         HintWindow.SetActive(true);
         
@@ -117,9 +134,7 @@ public class RiddleActivator : MonoBehaviour
         if (input.Equals(riddle_setting.answer))
         {
             start_time = false;
-            time /= 60;
-            Debug.Log(input);
-            Debug.Log(time);
+            GiveLogicPoints();
             time = 0;
             riddle_hat.SetActive(false);
             CloseRiddle();
@@ -127,9 +142,16 @@ public class RiddleActivator : MonoBehaviour
         }
         else
         {
-            Debug.Log("false");
+            r_tryAgain.SetActive(true);   
         }
+        
     }
 
+    public void GiveLogicPoints()
+    {
+        // calling players stats increase logic point function to give logic points
+        stats.IncreaseLogicPoints(riddle_setting.riddle_score, time);
+    }
+   
 
 }
