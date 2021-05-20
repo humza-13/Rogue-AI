@@ -13,11 +13,18 @@ public class RiddleActivator : MonoBehaviour
     
     PlayerInputHandler m_PlayerInputsHandler;
     InGameMenuManager menu;
+    RiddleAction action;
+
     [Header("Riddle Object")]
     public GameObject riddle_hat;
+
+    [Header("Riddle Action ")]
+    [Tooltip("1 for conventional doors, 2 for sliding doors)")]
+    public int action_type;
     
+
     public RiddleSetting riddle_setting;
-    public PlayerStats stats;
+    private PlayerStats stats;
     [Header("Window Elements")]
     public TextMeshProUGUI r_title;
     public TextMeshProUGUI r_description;
@@ -43,6 +50,10 @@ public class RiddleActivator : MonoBehaviour
         DebugUtility.HandleErrorIfNullFindObject<InGameMenuManager, RiddleActivator>(menu, this);
 
         stats = FindObjectOfType<PlayerStats>();
+        DebugUtility.HandleErrorIfNullFindObject<PlayerStats, RiddleActivator>(stats, this);
+
+        action = FindObjectOfType<RiddleAction>();
+        DebugUtility.HandleErrorIfNullFindObject<RiddleAction, RiddleActivator>(action, this);
 
         //setting all riddle and hint windows inactive and riddle object to active
         riddle_hat.SetActive(true);
@@ -138,6 +149,7 @@ public class RiddleActivator : MonoBehaviour
             time = 0;
             riddle_hat.SetActive(false);
             CloseRiddle();
+            action.riddle_action(action_type);
             
         }
         else
