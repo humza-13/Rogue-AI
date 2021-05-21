@@ -116,7 +116,7 @@ public class EnemyController : MonoBehaviour
     WeaponController m_CurrentWeapon;
     WeaponController[] m_Weapons;
     NavigationModule m_NavigationModule;
-    public PlayerStats stats;
+    PlayerStats stats;
     
     
   

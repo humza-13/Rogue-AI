@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/FPS/Scenes/Level1.unity
     guid: d794a2ef8ba31d847ad3c19d03e2ddb9
+  - enabled: 1
+    path: Assets/FPS/Scenes/Login.unity
+    guid: 6ebf4d855e8e4da49a7b17e25a6f24a9
+  - enabled: 1
+    path: Assets/FPS/Scenes/LevelSelector.unity
+    guid: 75624620e12e6784ea0732235dddd79a
   m_configObjects: {}

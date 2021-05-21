@@ -1,5 +1,35 @@
 {
   "dependencies": {
+    "com.google.external-dependency-manager": {
+      "version": "file:D:/FYP/Project/Rogue-AI/GooglePackages/com.google.external-dependency-manager-1.2.165.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {}
+    },
+    "com.google.firebase.app": {
+      "version": "file:D:/FYP/Project/Rogue-AI/GooglePackages/com.google.firebase.app-7.2.0.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.165"
+      }
+    },
+    "com.google.firebase.auth": {
+      "version": "file:D:/FYP/Project/Rogue-AI/GooglePackages/com.google.firebase.auth-7.2.0.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "com.google.firebase.app": "7.2.0"
+      }
+    },
+    "com.google.firebase.database": {
+      "version": "file:D:/FYP/Project/Rogue-AI/GooglePackages/com.google.firebase.database-7.2.0.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "com.google.firebase.auth": "7.2.0"
+      }
+    },
     "com.unity.collab-proxy": {
       "version": "1.3.9",
       "depth": 0,
@@ -72,7 +102,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
-      "version": "10.4.0",
+      "version": "10.5.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -81,18 +111,18 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.universal": {
-      "version": "10.4.0",
+      "version": "10.5.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.mathematics": "1.1.0",
-        "com.unity.render-pipelines.core": "10.4.0",
-        "com.unity.shadergraph": "10.4.0"
+        "com.unity.render-pipelines.core": "10.5.0",
+        "com.unity.shadergraph": "10.5.0"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.searcher": {
-      "version": "4.3.1",
+      "version": "4.3.2",
       "depth": 2,
       "source": "registry",
       "dependencies": {},
@@ -106,12 +136,12 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.shadergraph": {
-      "version": "10.4.0",
+      "version": "10.5.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.render-pipelines.core": "10.4.0",
-        "com.unity.searcher": "4.3.1"
+        "com.unity.render-pipelines.core": "10.5.0",
+        "com.unity.searcher": "4.3.2"
       },
       "url": "https://packages.unity.com"
     },
