@@ -60,6 +60,7 @@ public class FirebaseManager : MonoBehaviour
     {
         //Set the authentication instance object
         auth = FirebaseAuth.DefaultInstance;
+
     }
 
     //Function for the login button
