@@ -7,21 +7,32 @@ using TMPro;
 
 public class RiddleActivator : MonoBehaviour
 {
+    delegate void Action_type();
+    Action_type action_type;
+
+    [Header("Riddle Type")]
+    public bool isOptional;
+    private float oriddle_time = 60; 
+
     [Header("UI Elements")]
     public GameObject RiddleWindow;
     public GameObject HintWindow;
     
     PlayerInputHandler m_PlayerInputsHandler;
     InGameMenuManager menu;
-    RiddleAction action;
+
 
     [Header("Riddle Object")]
     public GameObject riddle_hat;
 
     [Header("Riddle Action ")]
     [Tooltip("1 for conventional doors, 2 for sliding doors)")]
-    public int action_type;
-    
+    public int action_types;
+
+    [Header("Left and Right part of door")]
+    public Transform door_left;
+    public Transform door_right;
+
 
     public RiddleSetting riddle_setting;
     private PlayerStats stats;
@@ -38,8 +49,10 @@ public class RiddleActivator : MonoBehaviour
     [Header("Hint Window Elements")]
     public TextMeshProUGUI h_title;
     public TextMeshProUGUI h_description;
-    
 
+    private bool i_active = false;
+  
+   
 
     void Start()
     {
@@ -52,9 +65,6 @@ public class RiddleActivator : MonoBehaviour
         stats = FindObjectOfType<PlayerStats>();
         DebugUtility.HandleErrorIfNullFindObject<PlayerStats, RiddleActivator>(stats, this);
 
-        action = FindObjectOfType<RiddleAction>();
-        DebugUtility.HandleErrorIfNullFindObject<RiddleAction, RiddleActivator>(action, this);
-
         //setting all riddle and hint windows inactive and riddle object to active
         riddle_hat.SetActive(true);
         RiddleWindow.SetActive(false);
@@ -65,6 +75,7 @@ public class RiddleActivator : MonoBehaviour
 
     private void Update()
     {
+       
         // Lock cursor when clicking outside of menu
         if (!RiddleWindow.activeSelf && Input.GetMouseButtonDown(0) && !menu.menuRoot.activeSelf)
         {
@@ -73,18 +84,34 @@ public class RiddleActivator : MonoBehaviour
         }
 
         // checking if riddle is activated 
-        if (start_time == true)
+        if (start_time == true && i_active == true)
         {
-            // starting time for riddle
-            time += Time.unscaledDeltaTime;
-            r_time.text = time.ToString("F0");
+            if (isOptional == false)
+            {
+                // starting time for riddle
+                time += Time.unscaledDeltaTime;
+                r_time.text = time.ToString("F0");
+            }
+            else
+            {
+                oriddle_time -= Time.unscaledDeltaTime;
+                r_time.text = oriddle_time.ToString("F0");
+
+                if (oriddle_time < 0)
+                {
+                    start_time = false;
+                    timeUp();
+                }
+            }
         }
-       
+      
+
 
     }
 
         private void OnTriggerEnter(Collider other)
     {
+        i_active = true;
         // opening riddle on trigger
         openRiddle();
     }
@@ -113,11 +140,13 @@ public class RiddleActivator : MonoBehaviour
 
     public void OpenHintWindow()
     {
-        h_title.text = riddle_setting.title;
-        riddle_setting.hints = riddle_setting.hints.Replace(".", "." + System.Environment.NewLine);
-        h_description.text = riddle_setting.hints;
-        HintWindow.SetActive(true);
-        
+        if (i_active == true)
+        {
+            h_title.text = riddle_setting.title;
+            riddle_setting.hints = riddle_setting.hints.Replace(".", "." + System.Environment.NewLine);
+            h_description.text = riddle_setting.hints;
+            HintWindow.SetActive(true);
+        }
   
     }
     
@@ -135,22 +164,38 @@ public class RiddleActivator : MonoBehaviour
 
     public void GetAnswer()
     {
-        player_answer = answer_input.text;
-        CheckAnswer(player_answer);
-
+        if (i_active == true)
+        {
+            player_answer = answer_input.text;
+            CheckAnswer(player_answer.ToUpper());
+        }
     }
 
     public void CheckAnswer(string input)
     {
         if (input.Equals(riddle_setting.answer))
         {
-            start_time = false;
-            GiveLogicPoints();
-            time = 0;
-            riddle_hat.SetActive(false);
-            CloseRiddle();
-            action.riddle_action(action_type);
-            
+            if (isOptional == false)
+            {
+                answer_input.text = "";
+                r_tryAgain.SetActive(false);
+                start_time = false;
+                if (isOptional == false)
+                {
+                    GiveLogicPoints();
+                }
+                else
+                {
+                    GiveOptionalPoints();
+                }
+                time = 0;
+                oriddle_time = 10;
+                CloseRiddle();
+                riddle_setting.answer = null;
+                riddle_action(action_types);
+                riddle_hat.SetActive(false);
+            }
+
         }
         else
         {
@@ -164,6 +209,54 @@ public class RiddleActivator : MonoBehaviour
         // calling players stats increase logic point function to give logic points
         stats.IncreaseLogicPoints(riddle_setting.riddle_score, time);
     }
-   
+    public void GiveOptionalPoints()
+    {
+        // calling players stats increase logic point function to give logic points
+        stats.IncreaseLogicPoints(riddle_setting.riddle_score, 0);
+    }
+    void timeUp()
+    {
+        answer_input.text = "";
+        r_tryAgain.SetActive(false);
+        oriddle_time = 10;
+        CloseRiddle();
+        riddle_setting.answer = null;
+        riddle_hat.SetActive(false);
+    }
+    public void riddle_action(int type)
+    {
+        if (type == 0)
+        {
+            action_type = null;
 
+        }
+
+        if (type == 1)
+        {
+            action_type = conventional_door;
+            action_type();
+           
+            
+        }
+        else if (type == 2)
+        {
+            // action_type = sliding_door;
+        }
+
+    }
+
+    void conventional_door()
+    {
+        
+        Quaternion rotationL = Quaternion.AngleAxis(-180, Vector3.down);
+        Quaternion rotationR = Quaternion.AngleAxis(270, Vector3.down);
+
+        for (int i = 0; i < 500; i++)
+        {
+            door_left.transform.rotation = Quaternion.Slerp(door_left.transform.rotation, rotationL, .0125f);
+            door_right.transform.rotation = Quaternion.Slerp(door_right.transform.rotation, rotationR, .0125f);
+            
+        }
+    }
+  
 }

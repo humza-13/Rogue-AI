@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6537156}
   - component: {fileID: 20596000}
   m_Layer: 0
-  m_Name: art_6
+  m_Name: Riddle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

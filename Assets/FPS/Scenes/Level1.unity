@@ -352,6 +352,179 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 36355946}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &22604313
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1736139898}
+    m_Modifications:
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_time
+      value: 
+      objectReference: {fileID: 690562251}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: h_title
+      value: 
+      objectReference: {fileID: 790803231}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_title
+      value: 
+      objectReference: {fileID: 406640759}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: door_left
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: HintWindow
+      value: 
+      objectReference: {fileID: 1866018074}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: door_right
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_tryAgain
+      value: 
+      objectReference: {fileID: 1138523619}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: RiddleWindow
+      value: 
+      objectReference: {fileID: 640200783}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: action_types
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: answer_input
+      value: 
+      objectReference: {fileID: 1640474514}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: h_description
+      value: 
+      objectReference: {fileID: 328304718}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_description
+      value: 
+      objectReference: {fileID: 1449402924}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.hints
+      value: 1-Evaluating the strings letter by letter. 2-Find a sequence within
+        the alphabets.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.answer
+      value: CAT
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.description
+      value: DCF = BAD. 1- You need to defuse this generator.2-Evaluate the above
+        statement, it will give you a clue to find the code. 3-Complete the code
+        ECV = ***.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.riddle_score
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 702.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -375
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006403265478, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Riddle (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: title
+      value: Diffuse
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: description
+      value: Diffuse the generator
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: delayVisible
+      value: 20
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d4b4d1e37480cb748a3ead102009a7ab, type: 3}
+--- !u!4 &22604314 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 22604313}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &30847440 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 423864, guid: 98f508b556c380a4e89204f95af2d3da,
@@ -1311,20 +1484,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5491022058173376447, guid: cb2c90b76599d484fb8718c31feccd19, type: 3}
---- !u!114 &108430289
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 108430287}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac0b734be30c29048bfc4a28945faaa8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  door_left: {fileID: 1179552520}
-  door_right: {fileID: 1719873268}
 --- !u!4 &108430291 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cb2c90b76599d484fb8718c31feccd19,
@@ -2247,7 +2406,7 @@ PrefabInstance:
     - target: {fileID: 2015434656898269656, guid: 25a1b0efadb966e44889fce712c8ff8d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 2015434656898269656, guid: 25a1b0efadb966e44889fce712c8ff8d,
         type: 3}
@@ -2272,7 +2431,7 @@ PrefabInstance:
     - target: {fileID: 2015434656898269656, guid: 25a1b0efadb966e44889fce712c8ff8d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.7599998
+      value: 5.8
       objectReference: {fileID: 0}
     - target: {fileID: 2015434656898269656, guid: 25a1b0efadb966e44889fce712c8ff8d,
         type: 3}
@@ -2361,6 +2520,178 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25a1b0efadb966e44889fce712c8ff8d, type: 3}
+--- !u!1001 &298642273
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1736139898}
+    m_Modifications:
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_time
+      value: 
+      objectReference: {fileID: 690562251}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: h_title
+      value: 
+      objectReference: {fileID: 790803231}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_title
+      value: 
+      objectReference: {fileID: 406640759}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: door_left
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: HintWindow
+      value: 
+      objectReference: {fileID: 1866018074}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: door_right
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_tryAgain
+      value: 
+      objectReference: {fileID: 1138523619}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: RiddleWindow
+      value: 
+      objectReference: {fileID: 640200783}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: action_types
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: answer_input
+      value: 
+      objectReference: {fileID: 1640474514}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: h_description
+      value: 
+      objectReference: {fileID: 328304718}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_description
+      value: 
+      objectReference: {fileID: 1449402924}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.hints
+      value: '1-Evaluate the letters of the statement one at a time e.g: T=4. 2-Replace
+        the evaluated letters with the word LATER.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.answer
+      value: 61435
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.description
+      value: TRAVEL=451936. 1-Examine the above statement. 2-What is LATER equal
+        to.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.riddle_score
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 318.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -625.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006403265478, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Riddle (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: title
+      value: Diffuse energitron
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: description
+      value: Find and diffuse energitron.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: delayVisible
+      value: 300
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d4b4d1e37480cb748a3ead102009a7ab, type: 3}
+--- !u!4 &298642274 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 298642273}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &301529196
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2954,6 +3285,177 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1966481479}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &377141382
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1736139898}
+    m_Modifications:
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_time
+      value: 
+      objectReference: {fileID: 690562251}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: h_title
+      value: 
+      objectReference: {fileID: 790803231}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_title
+      value: 
+      objectReference: {fileID: 406640759}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: door_left
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: HintWindow
+      value: 
+      objectReference: {fileID: 1866018074}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: door_right
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_tryAgain
+      value: 
+      objectReference: {fileID: 1138523619}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: RiddleWindow
+      value: 
+      objectReference: {fileID: 640200783}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: action_types
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: answer_input
+      value: 
+      objectReference: {fileID: 1640474514}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: h_description
+      value: 
+      objectReference: {fileID: 328304718}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_description
+      value: 
+      objectReference: {fileID: 1449402924}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.hints
+      value: 1-Find a sequence between the first few numbers.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.answer
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.description
+      value: 0,2,6,12,20,*,42.1-Examine the above sequence. 2-What will the digit
+        that shall replace the asterisk(*).
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.riddle_score
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 312.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -364.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006403265478, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Riddle (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: title
+      value: Crew Lab
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: description
+      value: Find the pass code to crew lab
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: delayVisible
+      value: 400
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d4b4d1e37480cb748a3ead102009a7ab, type: 3}
+--- !u!4 &377141383 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 377141382}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &392165745
 GameObject:
   m_ObjectHideFlags: 0
@@ -3036,7 +3538,139 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1885790828}
+      - m_Target: {fileID: 424539478}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: GetAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1158196598}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: GetAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1214878324}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: GetAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 965034340}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: GetAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1393231476}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: GetAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1094291522}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: GetAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 400566582}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: GetAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1252399141}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: GetAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1243426374}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: GetAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1710728695}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: GetAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1874077092}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: GetAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 554991462}
         m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
         m_MethodName: GetAnswer
         m_Mode: 1
@@ -3086,6 +3720,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 392165745}
   m_CullTransparentMesh: 1
+--- !u!114 &400566582 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 1547198796}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4dd6ae8816685541a9127efb287b811, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &404848531
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3290,6 +3936,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 406640757}
   m_CullTransparentMesh: 1
+--- !u!114 &424539478 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 4829798006551307372}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4dd6ae8816685541a9127efb287b811, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &427558532
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3695,6 +4353,12 @@ Transform:
   m_Father: {fileID: 1078870372}
   m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &434641486 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 4829798006551307372}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &438529138
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3800,7 +4464,7 @@ PrefabInstance:
     - target: {fileID: 2015434656898269656, guid: e29d43f43cc5d82499dd9926e01847d3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 2015434656898269656, guid: e29d43f43cc5d82499dd9926e01847d3,
         type: 3}
@@ -4015,99 +4679,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 973442904}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &525404011
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 525404013}
-  - component: {fileID: 525404012}
-  m_Layer: 0
-  m_Name: Point Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!108 &525404012
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 525404011}
-  m_Enabled: 1
-  serializedVersion: 10
-  m_Type: 0
-  m_Shape: 0
-  m_Color: {r: 0.18787637, g: 0.9622642, b: 0, a: 1}
-  m_Intensity: 200
-  m_Range: 10
-  m_SpotAngle: 104.41672
-  m_InnerSpotAngle: 49.770813
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 0
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
---- !u!4 &525404013
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 525404011}
-  m_LocalRotation: {x: 0.7088051, y: -0, z: -0, w: 0.7054044}
-  m_LocalPosition: {x: 674.3541, y: 22.532608, z: 87.387695}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1078870372}
-  m_RootOrder: 55
-  m_LocalEulerAnglesHint: {x: 90.27301, y: 0, z: 0}
 --- !u!1 &536852777
 GameObject:
   m_ObjectHideFlags: 0
@@ -4189,6 +4760,324 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 536852777}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &541959417
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1736139898}
+    m_Modifications:
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_time
+      value: 
+      objectReference: {fileID: 690562251}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: h_title
+      value: 
+      objectReference: {fileID: 790803231}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_title
+      value: 
+      objectReference: {fileID: 406640759}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: door_left
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: HintWindow
+      value: 
+      objectReference: {fileID: 1866018074}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: door_right
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_tryAgain
+      value: 
+      objectReference: {fileID: 1138523619}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: RiddleWindow
+      value: 
+      objectReference: {fileID: 640200783}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: action_types
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: answer_input
+      value: 
+      objectReference: {fileID: 1640474514}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: h_description
+      value: 
+      objectReference: {fileID: 328304718}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_description
+      value: 
+      objectReference: {fileID: 1449402924}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.hints
+      value: '1-Evaluate the letters of the statement one at a time e.g: M=5. 2-Replace
+        the evaluated letters with the word DECIMAL.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.answer
+      value: 3172568
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.description
+      value: MEDICAL=5132768. 1-Examine the above statement. 2-What is DECIMAL equal
+        to.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.riddle_score
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 466
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -515.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006403265478, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Riddle (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: title
+      value: Diffuse STARLINK
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: description
+      value: Find and diffuse starlink
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: delayVisible
+      value: 200
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d4b4d1e37480cb748a3ead102009a7ab, type: 3}
+--- !u!4 &541959418 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 541959417}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &554991462 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 1953090702}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4dd6ae8816685541a9127efb287b811, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &561863129
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1225614950}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: cb2c90b76599d484fb8718c31feccd19,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cb2c90b76599d484fb8718c31feccd19,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 7.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cb2c90b76599d484fb8718c31feccd19,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 7.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cb2c90b76599d484fb8718c31feccd19,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cb2c90b76599d484fb8718c31feccd19,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 545.73413
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cb2c90b76599d484fb8718c31feccd19,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.27
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cb2c90b76599d484fb8718c31feccd19,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -547.69
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cb2c90b76599d484fb8718c31feccd19,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cb2c90b76599d484fb8718c31feccd19,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cb2c90b76599d484fb8718c31feccd19,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cb2c90b76599d484fb8718c31feccd19,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cb2c90b76599d484fb8718c31feccd19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cb2c90b76599d484fb8718c31feccd19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cb2c90b76599d484fb8718c31feccd19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5648088106167705315, guid: cb2c90b76599d484fb8718c31feccd19,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5648088106167705315, guid: cb2c90b76599d484fb8718c31feccd19,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5648088106167705315, guid: cb2c90b76599d484fb8718c31feccd19,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5648088106167705315, guid: cb2c90b76599d484fb8718c31feccd19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cb2c90b76599d484fb8718c31feccd19,
+        type: 3}
+      propertyPath: m_Name
+      value: MayanTempleEdoor (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5673971997976747487, guid: cb2c90b76599d484fb8718c31feccd19,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5673971997976747487, guid: cb2c90b76599d484fb8718c31feccd19,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5673971997976747487, guid: cb2c90b76599d484fb8718c31feccd19,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5673971997976747487, guid: cb2c90b76599d484fb8718c31feccd19,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5673971997976747487, guid: cb2c90b76599d484fb8718c31feccd19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5673971997976747487, guid: cb2c90b76599d484fb8718c31feccd19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cb2c90b76599d484fb8718c31feccd19, type: 3}
 --- !u!1001 &596967015
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4597,7 +5486,7 @@ Transform:
   m_Children:
   - {fileID: 2114603941}
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &651566833
 GameObject:
@@ -5281,7 +6170,7 @@ PrefabInstance:
     - target: {fileID: 2015434656898269656, guid: 25a1b0efadb966e44889fce712c8ff8d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2015434656898269656, guid: 25a1b0efadb966e44889fce712c8ff8d,
         type: 3}
@@ -5881,6 +6770,177 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3de939d976a5bb0419ccd8dbd0b6836b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &897357597
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1736139898}
+    m_Modifications:
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_time
+      value: 
+      objectReference: {fileID: 690562251}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: h_title
+      value: 
+      objectReference: {fileID: 790803231}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_title
+      value: 
+      objectReference: {fileID: 406640759}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: door_left
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: HintWindow
+      value: 
+      objectReference: {fileID: 1866018074}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: door_right
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_tryAgain
+      value: 
+      objectReference: {fileID: 1138523619}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: RiddleWindow
+      value: 
+      objectReference: {fileID: 640200783}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: action_types
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: answer_input
+      value: 
+      objectReference: {fileID: 1640474514}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: h_description
+      value: 
+      objectReference: {fileID: 328304718}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_description
+      value: 
+      objectReference: {fileID: 1449402924}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.hints
+      value: 1- This is an easyone!!.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.answer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.description
+      value: 12,2,27,11,7. 1-Arrange the following numbers from smallest to largest.
+        2-Identify the middle number.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.riddle_score
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -642
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006403265478, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Riddle (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: title
+      value: Diffuse battery
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: description
+      value: Find and diffuse battery.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: delayVisible
+      value: 300
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d4b4d1e37480cb748a3ead102009a7ab, type: 3}
+--- !u!4 &897357598 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 897357597}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &903269838
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6010,7 +7070,7 @@ Transform:
   - {fileID: 1584813037}
   - {fileID: 934548245}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &934548244
 PrefabInstance:
@@ -6122,7 +7182,7 @@ PrefabInstance:
     - target: {fileID: 2015434656898269656, guid: e29d43f43cc5d82499dd9926e01847d3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2015434656898269656, guid: e29d43f43cc5d82499dd9926e01847d3,
         type: 3}
@@ -6359,7 +7419,7 @@ Transform:
   - {fileID: 1690427622}
   - {fileID: 2098035471}
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &962218221
 PrefabInstance:
@@ -6430,6 +7490,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 738cfb63efae84af7b2446470711e751, type: 3}
+--- !u!114 &965034340 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 2002462248}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4dd6ae8816685541a9127efb287b811, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &973442904
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7179,7 +8251,7 @@ PrefabInstance:
     - target: {fileID: 2015434656898269656, guid: e29d43f43cc5d82499dd9926e01847d3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2015434656898269656, guid: e29d43f43cc5d82499dd9926e01847d3,
         type: 3}
@@ -7434,11 +8506,22 @@ Transform:
   - {fileID: 1224660238}
   - {fileID: 245510167}
   - {fileID: 81765632}
-  - {fileID: 525404013}
   - {fileID: 692483880}
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1094291522 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 541959417}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4dd6ae8816685541a9127efb287b811, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1095422731
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7620,7 +8703,7 @@ PrefabInstance:
     - target: {fileID: 2015434656898269656, guid: 25a1b0efadb966e44889fce712c8ff8d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2015434656898269656, guid: 25a1b0efadb966e44889fce712c8ff8d,
         type: 3}
@@ -8154,6 +9237,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1146161174}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1158196598 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 1364517171}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4dd6ae8816685541a9127efb287b811, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1158311598 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 413196, guid: 5412c75372d92be4484fa4a55b5c99e3,
@@ -8589,6 +9684,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1210063651}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1214878324 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 22604313}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4dd6ae8816685541a9127efb287b811, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1224660237
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8714,9 +9821,22 @@ Transform:
   - {fileID: 332086567}
   - {fileID: 1915728202}
   - {fileID: 108430291}
+  - {fileID: 1595175372}
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1243426374 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 298642273}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4dd6ae8816685541a9127efb287b811, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1250074477
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8801,6 +9921,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40fcf78ff83f2dd4c93c69f22299567b, type: 3}
+--- !u!114 &1252399141 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 377141382}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4dd6ae8816685541a9127efb287b811, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1275892541 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 738cfb63efae84af7b2446470711e751,
@@ -8984,7 +10116,139 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1885790828}
+      - m_Target: {fileID: 424539478}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: CloseRiddle
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1158196598}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: CloseRiddle
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1214878324}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: CloseRiddle
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 965034340}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: CloseRiddle
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1393231476}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: CloseRiddle
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1094291522}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: CloseRiddle
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 400566582}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: CloseRiddle
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1252399141}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: CloseRiddle
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1243426374}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: CloseRiddle
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1710728695}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: CloseRiddle
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1874077092}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: CloseRiddle
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 554991462}
         m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
         m_MethodName: CloseRiddle
         m_Mode: 1
@@ -9103,105 +10367,178 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfcae8fd1d4ebf64fbdfecf57e5160a7, type: 3}
---- !u!1001 &1323027453
+--- !u!1001 &1315445701
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1736139898}
     m_Modifications:
-    - target: {fileID: 2707800222142829377, guid: d401b602eddc4e449b385a053f012a4c,
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
-      propertyPath: title
-      value: Crew Lab 1
+      propertyPath: r_time
+      value: 
+      objectReference: {fileID: 690562251}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: h_title
+      value: 
+      objectReference: {fileID: 790803231}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_title
+      value: 
+      objectReference: {fileID: 406640759}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: door_left
+      value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829377, guid: d401b602eddc4e449b385a053f012a4c,
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
-      propertyPath: isOptional
+      propertyPath: HintWindow
+      value: 
+      objectReference: {fileID: 1866018074}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: door_right
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_tryAgain
+      value: 
+      objectReference: {fileID: 1138523619}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: RiddleWindow
+      value: 
+      objectReference: {fileID: 640200783}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: action_types
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829377, guid: d401b602eddc4e449b385a053f012a4c,
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
-      propertyPath: description
-      value: Entrance to crew lab 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829377, guid: d401b602eddc4e449b385a053f012a4c,
+      propertyPath: answer_input
+      value: 
+      objectReference: {fileID: 1640474514}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
-      propertyPath: delayVisible
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829387, guid: d401b602eddc4e449b385a053f012a4c,
+      propertyPath: h_description
+      value: 
+      objectReference: {fileID: 328304718}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
-      propertyPath: m_Name
-      value: ObjectiveReachPoint (1)
+      propertyPath: r_description
+      value: 
+      objectReference: {fileID: 1449402924}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.hints
+      value: 1-Find a sequence between the first few numbers. 2-Compare it with the
+        rest of the sequence.
       objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829391, guid: d401b602eddc4e449b385a053f012a4c,
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.answer
+      value: 47
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.description
+      value: 8,13,21,32,47,63,83. 1-Consider the following sequence. 2-Identify the
+        wrong term.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.riddle_score
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 9
       objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829391, guid: d401b602eddc4e449b385a053f012a4c,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829391, guid: d401b602eddc4e449b385a053f012a4c,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 70
-      objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829391, guid: d401b602eddc4e449b385a053f012a4c,
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 296.703
+      value: 383.85
       objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829391, guid: d401b602eddc4e449b385a053f012a4c,
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.009994507
+      value: 4.7
       objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829391, guid: d401b602eddc4e449b385a053f012a4c,
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -351.27002
+      value: -424.62
       objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829391, guid: d401b602eddc4e449b385a053f012a4c,
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829391, guid: d401b602eddc4e449b385a053f012a4c,
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829391, guid: d401b602eddc4e449b385a053f012a4c,
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829391, guid: d401b602eddc4e449b385a053f012a4c,
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829391, guid: d401b602eddc4e449b385a053f012a4c,
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829391, guid: d401b602eddc4e449b385a053f012a4c,
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829391, guid: d401b602eddc4e449b385a053f012a4c,
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4829798006403265478, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Riddle (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: title
+      value: Diffuse mini STARLINK
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: description
+      value: Find and diffuse mini STARLINK
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: delayVisible
+      value: 350
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d401b602eddc4e449b385a053f012a4c, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: d4b4d1e37480cb748a3ead102009a7ab, type: 3}
+--- !u!4 &1315445702 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 1315445701}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1323278605
 GameObject:
   m_ObjectHideFlags: 0
@@ -9622,6 +10959,207 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1001 &1364517171
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1736139898}
+    m_Modifications:
+    - target: {fileID: 4829798006363546368, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.9607843
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006363546368, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006363546368, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.86457264
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_time
+      value: 
+      objectReference: {fileID: 690562251}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: h_title
+      value: 
+      objectReference: {fileID: 790803231}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_title
+      value: 
+      objectReference: {fileID: 406640759}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: door_left
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: HintWindow
+      value: 
+      objectReference: {fileID: 1866018074}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: door_right
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: isOptional
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_tryAgain
+      value: 
+      objectReference: {fileID: 1138523619}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: RiddleWindow
+      value: 
+      objectReference: {fileID: 640200783}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: action_types
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: answer_input
+      value: 
+      objectReference: {fileID: 1640474514}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: h_description
+      value: 
+      objectReference: {fileID: 328304718}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_description
+      value: 
+      objectReference: {fileID: 1449402924}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.hints
+      value: 1- Square the numbers.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.title
+      value: BONUS RIDDLE
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.answer
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.description
+      value: 1+1 =2, 2+3 = 13, 3+3=18. 1-Assess the code mentioned above, find relation
+        in it. 2-Find the value of 4+3 with that realtion.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.riddle_score
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 529
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 30.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 589.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006403265478, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Riddle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: title
+      value: Bonus
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: isOptional
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: description
+      value: Bouns riddle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: delayVisible
+      value: 300
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d4b4d1e37480cb748a3ead102009a7ab, type: 3}
+--- !u!4 &1364517172 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 1364517171}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1367614102
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9773,7 +11311,139 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1885790828}
+      - m_Target: {fileID: 424539478}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: CloseHint
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1158196598}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: CloseHint
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1214878324}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: CloseHint
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 965034340}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: CloseHint
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1393231476}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: CloseHint
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1094291522}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: CloseHint
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 400566582}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: CloseHint
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1252399141}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: CloseHint
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1243426374}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: CloseHint
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1710728695}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: CloseHint
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1874077092}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: CloseHint
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 554991462}
         m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
         m_MethodName: CloseHint
         m_Mode: 1
@@ -9991,6 +11661,18 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1393231476 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 1574956766}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4dd6ae8816685541a9127efb287b811, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1402848967
 GameObject:
   m_ObjectHideFlags: 0
@@ -10049,7 +11731,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1408197547 stripped
 Transform:
@@ -10057,6 +11739,32 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 194088522}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1419455449 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3511050132096342390, guid: cb2c90b76599d484fb8718c31feccd19,
+    type: 3}
+  m_PrefabInstance: {fileID: 561863129}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1419455450 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -5648088106167705315, guid: cb2c90b76599d484fb8718c31feccd19,
+    type: 3}
+  m_PrefabInstance: {fileID: 561863129}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1419455451
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419455449}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6559887338589977172, guid: cb2c90b76599d484fb8718c31feccd19, type: 3}
 --- !u!1001 &1427292525
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10072,7 +11780,7 @@ PrefabInstance:
     - target: {fileID: 2015434656898269656, guid: 25a1b0efadb966e44889fce712c8ff8d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 2015434656898269656, guid: 25a1b0efadb966e44889fce712c8ff8d,
         type: 3}
@@ -10097,7 +11805,7 @@ PrefabInstance:
     - target: {fileID: 2015434656898269656, guid: 25a1b0efadb966e44889fce712c8ff8d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.7599998
+      value: 5.1
       objectReference: {fileID: 0}
     - target: {fileID: 2015434656898269656, guid: 25a1b0efadb966e44889fce712c8ff8d,
         type: 3}
@@ -10670,17 +12378,17 @@ PrefabInstance:
     - target: {fileID: 8746678193447392789, guid: 761cdc9e4e883334cbdcea062d0befa7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 653.76
+      value: 667.5
       objectReference: {fileID: 0}
     - target: {fileID: 8746678193447392789, guid: 761cdc9e4e883334cbdcea062d0befa7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 17.279999
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 8746678193447392789, guid: 761cdc9e4e883334cbdcea062d0befa7,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 125.759995
+      value: 216
       objectReference: {fileID: 0}
     - target: {fileID: 8746678193447392789, guid: 761cdc9e4e883334cbdcea062d0befa7,
         type: 3}
@@ -10895,7 +12603,139 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1885790828}
+      - m_Target: {fileID: 424539478}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: OpenHintWindow
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1158196598}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: OpenHintWindow
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1214878324}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: OpenHintWindow
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 965034340}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: OpenHintWindow
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1393231476}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: OpenHintWindow
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1094291522}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: OpenHintWindow
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 400566582}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: OpenHintWindow
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1252399141}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: OpenHintWindow
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1243426374}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: OpenHintWindow
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1710728695}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: OpenHintWindow
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1874077092}
+        m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
+        m_MethodName: OpenHintWindow
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 554991462}
         m_TargetAssemblyTypeName: RiddleActivator, Assembly-CSharp
         m_MethodName: OpenHintWindow
         m_Mode: 1
@@ -11020,6 +12860,207 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1533145360}
   m_CullTransparentMesh: 0
+--- !u!1001 &1547198796
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1736139898}
+    m_Modifications:
+    - target: {fileID: 4829798006363546368, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.9607843
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006363546368, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006363546368, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.860509
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_time
+      value: 
+      objectReference: {fileID: 690562251}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: h_title
+      value: 
+      objectReference: {fileID: 790803231}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_title
+      value: 
+      objectReference: {fileID: 406640759}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: door_left
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: HintWindow
+      value: 
+      objectReference: {fileID: 1866018074}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: door_right
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: isOptional
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_tryAgain
+      value: 
+      objectReference: {fileID: 1138523619}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: RiddleWindow
+      value: 
+      objectReference: {fileID: 640200783}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: action_types
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: answer_input
+      value: 
+      objectReference: {fileID: 1640474514}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: h_description
+      value: 
+      objectReference: {fileID: 328304718}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_description
+      value: 
+      objectReference: {fileID: 1449402924}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.hints
+      value: '1-Evaluate the letters of the statement one at a time e.g: L=5. 2-Replace
+        the evaluated letters with the word CALL.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.title
+      value: BONUS RIDDLE
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.answer
+      value: 3255
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.description
+      value: LOCAL=51325. 1-Examine the above statement. 2-What is CALL equal to.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.riddle_score
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 447.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -342.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006403265478, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Riddle (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: title
+      value: 'Bonus '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: isOptional
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: description
+      value: 'Bonus riddle '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: delayVisible
+      value: 400
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d4b4d1e37480cb748a3ead102009a7ab, type: 3}
+--- !u!4 &1547198797 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 1547198796}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1558653118
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11200,6 +13241,173 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1573238546}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1574956766
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1736139898}
+    m_Modifications:
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_time
+      value: 
+      objectReference: {fileID: 690562251}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: h_title
+      value: 
+      objectReference: {fileID: 790803231}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_title
+      value: 
+      objectReference: {fileID: 406640759}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: door_left
+      value: 
+      objectReference: {fileID: 1976808321}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: HintWindow
+      value: 
+      objectReference: {fileID: 1866018074}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: door_right
+      value: 
+      objectReference: {fileID: 1419455450}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_tryAgain
+      value: 
+      objectReference: {fileID: 1138523619}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: RiddleWindow
+      value: 
+      objectReference: {fileID: 640200783}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: answer_input
+      value: 
+      objectReference: {fileID: 1640474514}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: h_description
+      value: 
+      objectReference: {fileID: 328304718}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_description
+      value: 
+      objectReference: {fileID: 1449402924}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.hints
+      value: '1-Compare the two strings letter by letter e.g: E=U and T=B. 2-Replace
+        the letters with the word HERO'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.title
+      value: RIDDLE OF DEATH
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.answer
+      value: TUBE
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.description
+      value: ETHYL(HERO)FROWN = UNTIL(?)ABEAM.1-Examine the above statement. 2-Find
+        the word that shall replace the question mark "?".
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 577
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -519.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006403265478, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Riddle (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: title
+      value: Riddle of Death
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: description
+      value: Find the code in order to pass through
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: delayVisible
+      value: 60
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d4b4d1e37480cb748a3ead102009a7ab, type: 3}
+--- !u!4 &1574956767 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 1574956766}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1584813036
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11290,6 +13498,32 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1584813036}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1595175371 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cb2c90b76599d484fb8718c31feccd19,
+    type: 3}
+  m_PrefabInstance: {fileID: 561863129}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1595175372 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cb2c90b76599d484fb8718c31feccd19,
+    type: 3}
+  m_PrefabInstance: {fileID: 561863129}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1595175373
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595175371}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5491022058173376447, guid: cb2c90b76599d484fb8718c31feccd19, type: 3}
 --- !u!1 &1603278495
 GameObject:
   m_ObjectHideFlags: 0
@@ -12370,7 +14604,7 @@ Transform:
   - {fileID: 1001245066}
   - {fileID: 1881560574}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1702866429 stripped
 Transform:
@@ -12513,6 +14747,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1709178909}
   m_CullTransparentMesh: 0
+--- !u!114 &1710728695 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 897357597}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4dd6ae8816685541a9127efb287b811, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1719873267 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3511050132096342390, guid: cb2c90b76599d484fb8718c31feccd19,
@@ -12539,6 +14785,48 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6559887338589977172, guid: cb2c90b76599d484fb8718c31feccd19, type: 3}
+--- !u!1 &1736139897
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1736139898}
+  m_Layer: 0
+  m_Name: Riddles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1736139898
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736139897}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1364517172}
+  - {fileID: 22604314}
+  - {fileID: 2002462249}
+  - {fileID: 1574956767}
+  - {fileID: 541959418}
+  - {fileID: 1547198797}
+  - {fileID: 377141383}
+  - {fileID: 298642274}
+  - {fileID: 897357598}
+  - {fileID: 1315445702}
+  - {fileID: 1953090703}
+  - {fileID: 434641486}
+  m_Father: {fileID: 0}
+  m_RootOrder: 27
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1741817058
 GameObject:
   m_ObjectHideFlags: 0
@@ -12573,7 +14861,7 @@ Transform:
   - {fileID: 1558653119}
   - {fileID: 1210063652}
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1741817060
 MonoBehaviour:
@@ -12607,105 +14895,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3de939d976a5bb0419ccd8dbd0b6836b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &1779603278
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2707800222142829377, guid: d401b602eddc4e449b385a053f012a4c,
-        type: 3}
-      propertyPath: title
-      value: Find the puzzle
-      objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829377, guid: d401b602eddc4e449b385a053f012a4c,
-        type: 3}
-      propertyPath: isOptional
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829377, guid: d401b602eddc4e449b385a053f012a4c,
-        type: 3}
-      propertyPath: description
-      value: Find and solve the puzzle
-      objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829377, guid: d401b602eddc4e449b385a053f012a4c,
-        type: 3}
-      propertyPath: delayVisible
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829387, guid: d401b602eddc4e449b385a053f012a4c,
-        type: 3}
-      propertyPath: m_Name
-      value: ObjectiveReachPoint
-      objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829391, guid: d401b602eddc4e449b385a053f012a4c,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829391, guid: d401b602eddc4e449b385a053f012a4c,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829391, guid: d401b602eddc4e449b385a053f012a4c,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829391, guid: d401b602eddc4e449b385a053f012a4c,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 693.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829391, guid: d401b602eddc4e449b385a053f012a4c,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 15.041733
-      objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829391, guid: d401b602eddc4e449b385a053f012a4c,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 112.06163
-      objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829391, guid: d401b602eddc4e449b385a053f012a4c,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829391, guid: d401b602eddc4e449b385a053f012a4c,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829391, guid: d401b602eddc4e449b385a053f012a4c,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829391, guid: d401b602eddc4e449b385a053f012a4c,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829391, guid: d401b602eddc4e449b385a053f012a4c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829391, guid: d401b602eddc4e449b385a053f012a4c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2707800222142829391, guid: d401b602eddc4e449b385a053f012a4c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d401b602eddc4e449b385a053f012a4c, type: 3}
 --- !u!1001 &1786184652
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12999,7 +15188,7 @@ Transform:
   m_Children:
   - {fileID: 2036790200}
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1868147481
 GameObject:
@@ -13034,6 +15223,18 @@ Transform:
   m_Father: {fileID: 1078870372}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1874077092 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 1315445701}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4dd6ae8816685541a9127efb287b811, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1874545278
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13126,61 +15327,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 362099158}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1885790826 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2805368771174309307, guid: 942c2c1bb4e544cb09d3494e89bb8041,
-    type: 3}
-  m_PrefabInstance: {fileID: 1956409472}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1885790828
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1885790826}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4dd6ae8816685541a9127efb287b811, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RiddleWindow: {fileID: 640200783}
-  HintWindow: {fileID: 1866018074}
-  riddle_hat: {fileID: 1885790826}
-  action_type: 1
-  riddle_setting:
-    title: GUESS THE CODE
-    description: 1- The product of it's three numbers is 36.2- The sum of it's three
-      numbers is the same as previous crew's ship number, which you don't know but
-      they do. (They have been here before).3- The largest number is unique.4- They
-      needed all three clues in order to crack the code.
-    hints: 1- Write down all posible three digit combinations of 36.2- Now write
-      all thoes combinations in the form of sum.3- Why did previous crew needed a
-      third clue even though they knew their ship number.4- There must be a combination
-      which confuses them or maybe there are two!!.5- Notice the combinations with
-      same sum value.
-    answer: 229
-    riddle_score: 20
-  r_title: {fileID: 406640759}
-  r_description: {fileID: 1449402924}
-  r_time: {fileID: 690562251}
-  r_tryAgain: {fileID: 1138523619}
-  answer_input: {fileID: 1640474514}
-  h_title: {fileID: 790803231}
-  h_description: {fileID: 328304718}
---- !u!65 &1885790829
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1885790826}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1907808220
 GameObject:
   m_ObjectHideFlags: 0
@@ -13598,146 +15744,177 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1950171146}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1956409472
+--- !u!1001 &1953090702
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1736139898}
     m_Modifications:
-    - target: {fileID: 2805368771174309306, guid: 942c2c1bb4e544cb09d3494e89bb8041,
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_time
+      value: 
+      objectReference: {fileID: 690562251}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: h_title
+      value: 
+      objectReference: {fileID: 790803231}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_title
+      value: 
+      objectReference: {fileID: 406640759}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: door_left
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: HintWindow
+      value: 
+      objectReference: {fileID: 1866018074}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: door_right
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_tryAgain
+      value: 
+      objectReference: {fileID: 1138523619}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: RiddleWindow
+      value: 
+      objectReference: {fileID: 640200783}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: action_types
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: answer_input
+      value: 
+      objectReference: {fileID: 1640474514}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: h_description
+      value: 
+      objectReference: {fileID: 328304718}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_description
+      value: 
+      objectReference: {fileID: 1449402924}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.hints
+      value: '1-Evaluate the letters of the statement one at a time e.g: D=7. 2-Replace
+        the evaluated letters with the word LEAD.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.answer
+      value: 5347
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.description
+      value: DEAL=7345. 1-Examine the above statement. 2-What is LEAD equal to?
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.riddle_score
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 2805368771174309306, guid: 942c2c1bb4e544cb09d3494e89bb8041,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2805368771174309306, guid: 942c2c1bb4e544cb09d3494e89bb8041,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2805368771174309306, guid: 942c2c1bb4e544cb09d3494e89bb8041,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2805368771174309306, guid: 942c2c1bb4e544cb09d3494e89bb8041,
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 694.07996
+      value: 680.04
       objectReference: {fileID: 0}
-    - target: {fileID: 2805368771174309306, guid: 942c2c1bb4e544cb09d3494e89bb8041,
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 17.279999
+      value: 4.47
       objectReference: {fileID: 0}
-    - target: {fileID: 2805368771174309306, guid: 942c2c1bb4e544cb09d3494e89bb8041,
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 111.91303
+      value: -602.17
       objectReference: {fileID: 0}
-    - target: {fileID: 2805368771174309306, guid: 942c2c1bb4e544cb09d3494e89bb8041,
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2805368771174309306, guid: 942c2c1bb4e544cb09d3494e89bb8041,
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 2805368771174309306, guid: 942c2c1bb4e544cb09d3494e89bb8041,
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 2805368771174309306, guid: 942c2c1bb4e544cb09d3494e89bb8041,
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.7071068
+      value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 2805368771174309306, guid: 942c2c1bb4e544cb09d3494e89bb8041,
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2805368771174309306, guid: 942c2c1bb4e544cb09d3494e89bb8041,
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2805368771174309306, guid: 942c2c1bb4e544cb09d3494e89bb8041,
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 90
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2805368771174309307, guid: 942c2c1bb4e544cb09d3494e89bb8041,
+    - target: {fileID: 4829798006403265478, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
       propertyPath: m_Name
-      value: RiddleHat
+      value: Riddle (11)
       objectReference: {fileID: 0}
-    - target: {fileID: 2805368772352867136, guid: 942c2c1bb4e544cb09d3494e89bb8041,
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.19200023
+      propertyPath: title
+      value: Capacitor problem
       objectReference: {fileID: 0}
-    - target: {fileID: 2805368772352867136, guid: 942c2c1bb4e544cb09d3494e89bb8041,
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.03945315
+      propertyPath: description
+      value: Find and diffuse capacitor
       objectReference: {fileID: 0}
-    - target: {fileID: 2805368772352867136, guid: 942c2c1bb4e544cb09d3494e89bb8041,
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.014607239
+      propertyPath: delayVisible
+      value: 300
       objectReference: {fileID: 0}
-    - target: {fileID: 2805368772352867136, guid: 942c2c1bb4e544cb09d3494e89bb8041,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.71197695
-      objectReference: {fileID: 0}
-    - target: {fileID: 2805368772352867136, guid: 942c2c1bb4e544cb09d3494e89bb8041,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.018639712
-      objectReference: {fileID: 0}
-    - target: {fileID: 2805368772352867136, guid: 942c2c1bb4e544cb09d3494e89bb8041,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.70181996
-      objectReference: {fileID: 0}
-    - target: {fileID: 2805368772352867136, guid: 942c2c1bb4e544cb09d3494e89bb8041,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.013792662
-      objectReference: {fileID: 0}
-    - target: {fileID: 2805368772352867136, guid: 942c2c1bb4e544cb09d3494e89bb8041,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 2.631
-      objectReference: {fileID: 0}
-    - target: {fileID: 2805368772352867136, guid: 942c2c1bb4e544cb09d3494e89bb8041,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 89.185
-      objectReference: {fileID: 0}
-    - target: {fileID: 2805368772352867136, guid: 942c2c1bb4e544cb09d3494e89bb8041,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0.374
-      objectReference: {fileID: 0}
-    - target: {fileID: 2805368772355291552, guid: 942c2c1bb4e544cb09d3494e89bb8041,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 1968812867654577432, guid: 57825ae2bae3dd842b7d091bec8a9534,
-        type: 3}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 942c2c1bb4e544cb09d3494e89bb8041, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: d4b4d1e37480cb748a3ead102009a7ab, type: 3}
+--- !u!4 &1953090703 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 1953090702}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1966481479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13942,11 +16119,239 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1973918012}
   m_CullTransparentMesh: 1
+--- !u!1 &1976808320 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6433420044992112391, guid: cb2c90b76599d484fb8718c31feccd19,
+    type: 3}
+  m_PrefabInstance: {fileID: 561863129}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1976808321 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5673971997976747487, guid: cb2c90b76599d484fb8718c31feccd19,
+    type: 3}
+  m_PrefabInstance: {fileID: 561863129}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1976808322
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976808320}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3117357777878942733, guid: cb2c90b76599d484fb8718c31feccd19, type: 3}
 --- !u!4 &1986814417 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 392647580589875951, guid: 40fcf78ff83f2dd4c93c69f22299567b,
     type: 3}
   m_PrefabInstance: {fileID: 268018096}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2002462248
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1736139898}
+    m_Modifications:
+    - target: {fileID: 4829798006363546368, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.9607843
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006363546368, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006363546368, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.88126534
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_time
+      value: 
+      objectReference: {fileID: 690562251}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: h_title
+      value: 
+      objectReference: {fileID: 790803231}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_title
+      value: 
+      objectReference: {fileID: 406640759}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: door_left
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: HintWindow
+      value: 
+      objectReference: {fileID: 1866018074}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: door_right
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: isOptional
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_tryAgain
+      value: 
+      objectReference: {fileID: 1138523619}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: RiddleWindow
+      value: 
+      objectReference: {fileID: 640200783}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: action_types
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: answer_input
+      value: 
+      objectReference: {fileID: 1640474514}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: h_description
+      value: 
+      objectReference: {fileID: 328304718}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_description
+      value: 
+      objectReference: {fileID: 1449402924}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.hints
+      value: '1-Evaluate the letters of the statement one at a time e.g: S=2. 2-Replace
+        the evaluated letters with the word LESS.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.title
+      value: BONUS RIDDLE
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.answer
+      value: 4122
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.description
+      value: SHELLS = 251442. 1-Examine the above statement. 2-What is LESS equal
+        to.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.riddle_score
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 693
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -486
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006403265478, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Riddle (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: title
+      value: Bonus
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: isOptional
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: description
+      value: 'Bonus riddle '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: delayVisible
+      value: 300
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d4b4d1e37480cb748a3ead102009a7ab, type: 3}
+--- !u!4 &2002462249 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 2002462248}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2018566652
 PrefabInstance:
@@ -13963,7 +16368,7 @@ PrefabInstance:
     - target: {fileID: 2015434656898269656, guid: 25a1b0efadb966e44889fce712c8ff8d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2015434656898269656, guid: 25a1b0efadb966e44889fce712c8ff8d,
         type: 3}
@@ -14804,7 +17209,7 @@ Transform:
   - {fileID: 1146161175}
   - {fileID: 841917502}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2729281213170272050
 GameObject:
@@ -14834,7 +17239,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2729281213673322025
 GameObject:
@@ -14864,7 +17269,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2729281213735534850
 GameObject:
@@ -14895,7 +17300,7 @@ Transform:
   m_Children:
   - {fileID: 1490705358}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2729281214287269654
 PrefabInstance:
@@ -14907,7 +17312,7 @@ PrefabInstance:
     - target: {fileID: 4778346531047654934, guid: c1f95b2a073069e4091731002c38a3df,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4778346531047654934, guid: c1f95b2a073069e4091731002c38a3df,
         type: 3}
@@ -15024,7 +17429,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2729281214538404664
 MonoBehaviour:
@@ -15053,7 +17458,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2729281214538404670
 GameObject:
@@ -15117,7 +17522,7 @@ PrefabInstance:
     - target: {fileID: 598277302063295029, guid: 012d63212fd1fe646b661cb8446c7bd4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 598277302063295029, guid: 012d63212fd1fe646b661cb8446c7bd4,
         type: 3}
@@ -15236,7 +17641,7 @@ PrefabInstance:
     - target: {fileID: 1315839542190839937, guid: c996b53e9f849234393d1e90f68d1679,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1315839542190839937, guid: c996b53e9f849234393d1e90f68d1679,
         type: 3}
@@ -15292,6 +17697,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GameManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315839542190839943, guid: c996b53e9f849234393d1e90f68d1679,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1567544279535664273, guid: c996b53e9f849234393d1e90f68d1679,
         type: 3}
@@ -15585,3 +17995,137 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c996b53e9f849234393d1e90f68d1679, type: 3}
+--- !u!1001 &4829798006551307372
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1736139898}
+    m_Modifications:
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_time
+      value: 
+      objectReference: {fileID: 690562251}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: h_title
+      value: 
+      objectReference: {fileID: 790803231}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_title
+      value: 
+      objectReference: {fileID: 406640759}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: door_left
+      value: 
+      objectReference: {fileID: 1179552520}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: HintWindow
+      value: 
+      objectReference: {fileID: 1866018074}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: door_right
+      value: 
+      objectReference: {fileID: 1719873268}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_tryAgain
+      value: 
+      objectReference: {fileID: 1138523619}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: RiddleWindow
+      value: 
+      objectReference: {fileID: 640200783}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: answer_input
+      value: 
+      objectReference: {fileID: 1640474514}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: h_description
+      value: 
+      objectReference: {fileID: 328304718}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: r_description
+      value: 
+      objectReference: {fileID: 1449402924}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 674.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 95.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006403265478, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Riddle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: title
+      value: Find the entrance
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391227526531506275, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: description
+      value: Find the code to enter.
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d4b4d1e37480cb748a3ead102009a7ab, type: 3}
