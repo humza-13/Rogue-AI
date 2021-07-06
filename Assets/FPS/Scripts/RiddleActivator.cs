@@ -10,6 +10,8 @@ public class RiddleActivator : MonoBehaviour
     delegate void Action_type();
     Action_type action_type;
 
+   
+
     [Header("Riddle Type")]
     public bool isOptional;
     private float oriddle_time = 60; 
@@ -64,6 +66,8 @@ public class RiddleActivator : MonoBehaviour
 
         stats = FindObjectOfType<PlayerStats>();
         DebugUtility.HandleErrorIfNullFindObject<PlayerStats, RiddleActivator>(stats, this);
+
+       
 
         //setting all riddle and hint windows inactive and riddle object to active
         riddle_hat.SetActive(true);
@@ -175,26 +179,27 @@ public class RiddleActivator : MonoBehaviour
     {
         if (input.Equals(riddle_setting.answer))
         {
+           
             if (isOptional == false)
             {
-                answer_input.text = "";
-                r_tryAgain.SetActive(false);
                 start_time = false;
-                if (isOptional == false)
-                {
-                    GiveLogicPoints();
-                }
-                else
-                {
-                    GiveOptionalPoints();
-                }
-                time = 0;
-                oriddle_time = 10;
-                CloseRiddle();
-                riddle_setting.answer = null;
-                riddle_action(action_types);
-                riddle_hat.SetActive(false);
+                GiveLogicPoints();
             }
+            else
+            {
+                GiveOptionalPoints();
+            }
+
+            time = 0;
+            oriddle_time = 60;
+            answer_input.text = "";
+            r_tryAgain.SetActive(false);
+            CloseRiddle();
+            riddle_setting.answer = null;
+            riddle_action(action_types);
+            riddle_hat.SetActive(false);
+
+            
 
         }
         else
@@ -218,7 +223,7 @@ public class RiddleActivator : MonoBehaviour
     {
         answer_input.text = "";
         r_tryAgain.SetActive(false);
-        oriddle_time = 10;
+        oriddle_time = 60;
         CloseRiddle();
         riddle_setting.answer = null;
         riddle_hat.SetActive(false);
@@ -240,9 +245,15 @@ public class RiddleActivator : MonoBehaviour
         }
         else if (type == 2)
         {
-            // action_type = sliding_door;
+            action_type = slidding_door;
+            action_type();
         }
 
+        else if (type == 3)
+        {
+            action_type = single_door;
+            action_type();
+        }
     }
 
     void conventional_door()
@@ -257,6 +268,18 @@ public class RiddleActivator : MonoBehaviour
             door_right.transform.rotation = Quaternion.Slerp(door_right.transform.rotation, rotationR, .0125f);
             
         }
+    }
+
+    void slidding_door()
+    {
+        door_left.transform.position = new Vector3(0.1000004f, 3.48f, 0f);
+        door_right.transform.position = new Vector3(0.1000004f, 0.45f, 0f);
+        
+
+    }
+    void single_door()
+    {
+        door_left.transform.position = new Vector3(0.1000004f, 3.48f, 0f);
     }
   
 }
