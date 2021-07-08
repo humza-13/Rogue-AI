@@ -10,7 +10,11 @@ public class RiddleActivator : MonoBehaviour
     delegate void Action_type();
     Action_type action_type;
 
-   
+    [Header("Doors with Animations")]
+    public Animation door;
+
+    [Header("Doors to Destroy")]
+    public GameObject doortodestroy;
 
     [Header("Riddle Type")]
     public bool isOptional;
@@ -31,7 +35,7 @@ public class RiddleActivator : MonoBehaviour
     [Tooltip("1 for conventional doors, 2 for sliding doors)")]
     public int action_types;
 
-    [Header("Left and Right part of door")]
+    [Header("Doors without Animations")]
     public Transform door_left;
     public Transform door_right;
 
@@ -248,12 +252,13 @@ public class RiddleActivator : MonoBehaviour
             action_type = slidding_door;
             action_type();
         }
-
         else if (type == 3)
         {
-            action_type = single_door;
+            action_type = destroy_door;
             action_type();
         }
+
+
     }
 
     void conventional_door()
@@ -272,14 +277,13 @@ public class RiddleActivator : MonoBehaviour
 
     void slidding_door()
     {
-        door_left.transform.position = new Vector3(0.1000004f, 3.48f, 0f);
-        door_right.transform.position = new Vector3(0.1000004f, 0.45f, 0f);
-        
-
-    }
-    void single_door()
-    {
-        door_left.transform.position = new Vector3(0.1000004f, 3.48f, 0f);
-    }
+        door.Play();
   
+    }
+
+    void destroy_door()
+    {
+        doortodestroy.SetActive(false);
+    }
+
 }

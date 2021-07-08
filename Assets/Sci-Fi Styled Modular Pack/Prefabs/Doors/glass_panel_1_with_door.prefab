@@ -107,8 +107,8 @@ GameObject:
   - component: {fileID: 417258}
   - component: {fileID: 3364716}
   - component: {fileID: 2331942}
-  - component: {fileID: 9575016}
   - component: {fileID: 6452128}
+  - component: {fileID: 861785347852915081}
   m_Layer: 0
   m_Name: glass_panel_1_with_door
   m_TagString: Untagged
@@ -183,25 +183,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &9575016
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 141970}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f602bc4d8fe1a744ca7ea8d4ec0871ad, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &6452128
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -216,6 +197,23 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 1d8fb1d801abb5741a1a870b2e3986dd, type: 3}
+--- !u!111 &861785347852915081
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141970}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: e4a7d3a2e475e6543994756f695d34ce, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: e4a7d3a2e475e6543994756f695d34ce, type: 2}
+  - {fileID: 7400000, guid: 131b4130ff95e2741a8a06898318756f, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1001 &602925330946736229
 PrefabInstance:
   m_ObjectHideFlags: 0
