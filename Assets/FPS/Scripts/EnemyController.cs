@@ -115,6 +115,8 @@ public class EnemyController : MonoBehaviour
     WeaponController[] m_Weapons;
     NavigationModule m_NavigationModule;
 
+    PlayerStats stats;
+
     void Start()
     {
         m_EnemyManager = FindObjectOfType<EnemyManager>();
@@ -136,6 +138,8 @@ public class EnemyController : MonoBehaviour
 
         m_GameFlowManager = FindObjectOfType<GameFlowManager>();
         DebugUtility.HandleErrorIfNullFindObject<GameFlowManager, EnemyController>(m_GameFlowManager, this);
+
+        stats = FindObjectOfType<PlayerStats>();
 
         // Subscribe to damage & death actions
         m_Health.onDie += OnDie;
@@ -365,6 +369,8 @@ public class EnemyController : MonoBehaviour
 
         // this will call the OnDestroy function
         Destroy(gameObject, deathDuration);
+
+        stats.IncreaseKillScore();
     }
 
     private void OnDrawGizmosSelected()
