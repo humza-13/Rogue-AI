@@ -5,10 +5,10 @@ using UnityEngine;
 public class LiftScript : MonoBehaviour
 {
 
-    public Animation mover;
+    public Animator mover;
     Health m_PlayerHealth;
     PlayerInputHandler m_PlayerInputsHandler;
-    public bool two_floors = false;
+ 
 
     private void Start()
     {
@@ -18,26 +18,16 @@ public class LiftScript : MonoBehaviour
         m_PlayerHealth = m_PlayerInputsHandler.GetComponent<Health>();
         DebugUtility.HandleErrorIfNullGetComponent<Health, InGameMenuManager>(m_PlayerHealth, this, gameObject);
 
-        if (two_floors == false)
-        {
-            mover["Lift_animation"].speed = 0;
-        }
-        else
-        {
-            mover["Lift 2_floors animation"].speed = 0;
-        }
+       
+        mover.speed = 0;
+        
     }
     private void OnTriggerEnter(Collider other)
     {
         m_PlayerHealth.invincible = true;
-        if (two_floors == false)
-        {
-            mover["Lift_animation"].speed = 1;
-        }
-        else
-        {
-            mover["Lift 2_floors animation"].speed = 1;
-        }
+       
+        mover.speed = 1;
+        
 
 
     }
@@ -45,14 +35,8 @@ public class LiftScript : MonoBehaviour
     {
         m_PlayerHealth.invincible = false;
 
-        if (two_floors == false)
-        {
-            mover["Lift_animation"].speed = 0;
-        }
-        else
-        {
-            mover["Lift 2_floors animation"].speed = 0;
-        }
+        mover.speed = 0;
+        
     }
 
 }

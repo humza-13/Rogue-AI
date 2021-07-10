@@ -9,18 +9,30 @@ EditorBuildSettings:
     path: Assets/FPS/Scenes/IntroMenu.unity
     guid: 56e3faabc5bb30f49a68bb8f1292f988
   - enabled: 1
-    path: Assets/FPS/Scenes/WinScene.unity
-    guid: 037d06fbede2b4041a843d9ee6fe750c
-  - enabled: 1
-    path: Assets/FPS/Scenes/LoseScene.unity
-    guid: 72e5c65a45893714484002914e3fd521
-  - enabled: 1
-    path: Assets/FPS/Scenes/Level1.unity
-    guid: d794a2ef8ba31d847ad3c19d03e2ddb9
-  - enabled: 1
     path: Assets/FPS/Scenes/Login.unity
     guid: 6ebf4d855e8e4da49a7b17e25a6f24a9
   - enabled: 1
     path: Assets/FPS/Scenes/LevelSelector.unity
     guid: 75624620e12e6784ea0732235dddd79a
+  - enabled: 1
+    path: Assets/FPS/Scenes/Level1.unity
+    guid: d794a2ef8ba31d847ad3c19d03e2ddb9
+  - enabled: 1
+    path: Assets/FPS/Scenes/ContinueScene.unity
+    guid: 73ddb1cb58095a142ad940b41fcc159c
+  - enabled: 1
+    path: Assets/FPS/Scenes/LoseScene.unity
+    guid: 72e5c65a45893714484002914e3fd521
+  - enabled: 1
+    path: Assets/FPS/Scenes/Level2.unity
+    guid: 4245453aa54196d41b38068c7ab26f79
+  - enabled: 1
+    path: Assets/FPS/Scenes/Level3.unity
+    guid: 7fa4adb2c86d12d49a84a085dce00a11
+  - enabled: 1
+    path: Assets/FPS/Scenes/Level4.unity
+    guid: 68541e82306ede344811e84d5c86a43e
+  - enabled: 1
+    path: Assets/FPS/Scenes/WinScene.unity
+    guid: 037d06fbede2b4041a843d9ee6fe750c
   m_configObjects: {}
