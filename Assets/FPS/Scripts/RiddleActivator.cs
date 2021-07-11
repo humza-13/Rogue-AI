@@ -56,6 +56,8 @@ public class RiddleActivator : MonoBehaviour
     public TextMeshProUGUI h_title;
     public TextMeshProUGUI h_description;
 
+
+    RiddleManagr m_riddle;
     private bool i_active = false;
    
   
@@ -63,6 +65,11 @@ public class RiddleActivator : MonoBehaviour
 
     void Start()
     {
+        m_riddle = FindObjectOfType<RiddleManagr>();
+
+        if(isOptional == false) { m_riddle.RegisterRiddle(this); }
+
+        
         m_PlayerInputsHandler = FindObjectOfType<PlayerInputHandler>();
         DebugUtility.HandleErrorIfNullFindObject<PlayerInputHandler, RiddleActivator>(m_PlayerInputsHandler, this);
 
@@ -207,6 +214,7 @@ public class RiddleActivator : MonoBehaviour
             riddle_setting.answer = null;
             riddle_setting.hints = "";
             riddle_action(action_types);
+            m_riddle.UnregisterRiddle(this);
             riddle_hat.SetActive(false);
 
             

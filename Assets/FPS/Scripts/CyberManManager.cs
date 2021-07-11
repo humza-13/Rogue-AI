@@ -14,9 +14,11 @@ public class CyberManManager : MonoBehaviour
     Health m_PlayerHealth;
     bool isInvincible;
     private float count;
+    NotificationHUDManager notice;
 
     private void Start()
     {
+        notice = FindObjectOfType<NotificationHUDManager>();
         m_PlayerHealth = player.GetComponent<Health>();
         cyberman = GetComponent<NavMeshAgent>();
         anim = GetComponent<Animator>();
@@ -61,6 +63,7 @@ public class CyberManManager : MonoBehaviour
     void giveInvincibilty()
     {
         isInvincible = true;
+        notice.CreateNotification("You are now invincible for 60 seconds!");
     }
 
     void takeInvincibilty()
