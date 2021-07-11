@@ -32902,7 +32902,7 @@ PrefabInstance:
     - target: {fileID: 814417836257332542, guid: 761cdc9e4e883334cbdcea062d0befa7,
         type: 3}
       propertyPath: footstepSFXFrequencyWhileSprinting
-      value: 0.1
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 1360575517897679518, guid: 761cdc9e4e883334cbdcea062d0befa7,
         type: 3}
@@ -49829,12 +49829,22 @@ PrefabInstance:
     - target: {fileID: 3515993507107511360, guid: c996b53e9f849234393d1e90f68d1679,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -140.95
+      value: -113.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 4160549848294572208, guid: c996b53e9f849234393d1e90f68d1679,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 4870860624577300998, guid: c996b53e9f849234393d1e90f68d1679,
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -43
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784240987228578634, guid: c996b53e9f849234393d1e90f68d1679,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5784240987228578635, guid: c996b53e9f849234393d1e90f68d1679,
         type: 3}
@@ -49914,7 +49924,7 @@ PrefabInstance:
     - target: {fileID: 6840976232943533885, guid: c996b53e9f849234393d1e90f68d1679,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -86.57
+      value: -59.38
       objectReference: {fileID: 0}
     - target: {fileID: 7731603399089928793, guid: c996b53e9f849234393d1e90f68d1679,
         type: 3}
@@ -49944,7 +49954,7 @@ PrefabInstance:
     - target: {fileID: 7731603399089928793, guid: c996b53e9f849234393d1e90f68d1679,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -113.76
+      value: -86.57
       objectReference: {fileID: 0}
     - target: {fileID: 7966276705436370871, guid: c996b53e9f849234393d1e90f68d1679,
         type: 3}
