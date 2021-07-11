@@ -12832,6 +12832,24 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0030b1f081f074ea79e4c8398f97fc08, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77c6276b63956c9439d917f842b9eeb0, type: 3}
+--- !u!1 &627447848 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1315839542190839943, guid: c996b53e9f849234393d1e90f68d1679,
+    type: 3}
+  m_PrefabInstance: {fileID: 4008933581619590512}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &627447849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627447848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe6723f16e61bea43aff13c88d9f8be2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &631792077
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24911,7 +24929,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75e964a76bcb3944880b487a32014488, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  a_riddle: {fileID: 0}
   d_logic_score: {fileID: 143903670}
   d_kill_score: {fileID: 339333725}
 --- !u!1 &1169114668
@@ -27905,7 +27922,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1293298367
 RectTransform:
   m_ObjectHideFlags: 0

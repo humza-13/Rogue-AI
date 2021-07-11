@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "680829756678",
+    "firebase_url": "https://rogue-ai-default-rtdb.firebaseio.com",
+    "project_id": "rogue-ai",
+    "storage_bucket": "rogue-ai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680829756678:android:ccff8a89e88b546692aa87",
+        "android_client_info": {
+          "package_name": "com.Comsats.RogueAI"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680829756678-dpjgccioa12p2kokqnau9s7hf7ahr61i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByU89QndGOMi4HalvdxYBCqjn1JaA-J-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "680829756678-dpjgccioa12p2kokqnau9s7hf7ahr61i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

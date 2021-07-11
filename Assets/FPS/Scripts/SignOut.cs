@@ -2,11 +2,17 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class SignOut : MonoBehaviour
 {
-  
-    public void signOut()
+    FirebaseManager firebase;
+
+    private void Start()
     {
-        SceneManager.LoadScene("Login");
+        firebase = GetComponent<FirebaseManager>();
+    }
+    public void LogOut()
+    {
+        firebase.SignOut();
     }
 }
