@@ -33424,6 +33424,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ObjectiveSolveRiddles
       objectReference: {fileID: 0}
+    - target: {fileID: 2540457596724321146, guid: 98a83ee70c429e94cae4b6f35fa3dbb0,
+        type: 3}
+      propertyPath: title
+      value: Solve All The Riddles
+      objectReference: {fileID: 0}
     - target: {fileID: 2540457596724321147, guid: 98a83ee70c429e94cae4b6f35fa3dbb0,
         type: 3}
       propertyPath: m_RootOrder
