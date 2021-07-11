@@ -12,6 +12,7 @@ public class GameFlowManager : MonoBehaviour
     [Header("Win")]
     [Tooltip("This string has to be the name of the scene you want to load when winning")]
     public string winSceneName = "WinScene";
+    public int nextLevel;
     [Tooltip("Duration of delay before the fade-to-black, if winning")]
     public float delayBeforeFadeToBlack = 4f;
     [Tooltip("Duration of delay before the win message")]
@@ -71,21 +72,24 @@ public class GameFlowManager : MonoBehaviour
                 EndGame(false);
         }
     }
+    
 
     void EndGame(bool win)
     {
         // unlocks the cursor before leaving the scene, to be able to click buttons
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
+        
 
         // Remember that we need to load the appropriate end scene after a delay
         gameIsEnding = true;
         endGameFadeCanvasGroup.gameObject.SetActive(true);
         if (win)
         {
+            PlayerPrefs.SetInt("LevelReached", nextLevel);
             m_SceneToLoad = winSceneName;
             m_TimeLoadEndGameScene = Time.time + endSceneLoadDelay + delayBeforeFadeToBlack;
-
+            
             // play a sound on win
             var audioSource = gameObject.AddComponent<AudioSource>();
             audioSource.clip = victorySound;

@@ -553,6 +553,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Riddle (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4829798006403265478, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4829798006409396846, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
       propertyPath: m_Size.x
@@ -4549,6 +4554,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Riddle (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006403265478, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4829798006409396846, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
@@ -9484,6 +9494,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Riddle (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4829798006403265478, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4829798006409396846, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
       propertyPath: m_Size.x
@@ -11114,6 +11129,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Riddle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006403265478, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4829798006409396846, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
@@ -14590,6 +14610,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Riddle (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4829798006403265478, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4829798006409396846, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
       propertyPath: m_Size.x
@@ -15179,6 +15204,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Riddle (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006403265478, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4829798006409396846, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
@@ -17578,6 +17608,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Riddle (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4829798006403265478, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4829798006409396846, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
       propertyPath: m_Size.x
@@ -19571,6 +19606,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Riddle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006403265478, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4829798006409396846, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
@@ -27085,6 +27125,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Riddle (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 4829798006403265478, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4829798006409396846, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
       propertyPath: m_Size.x
@@ -29731,6 +29776,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Riddle (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006403265478, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4829798006409396846, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
@@ -35861,6 +35911,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Riddle (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4829798006403265478, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4829798006409396846, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
       propertyPath: m_Size.x
@@ -39259,6 +39314,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Riddle (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829798006403265478, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4829798006409396846, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
@@ -49573,6 +49633,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ObjectiveKillEnemies
       objectReference: {fileID: 0}
+    - target: {fileID: 598277302063295018, guid: 012d63212fd1fe646b661cb8446c7bd4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 598277302063295019, guid: 012d63212fd1fe646b661cb8446c7bd4,
         type: 3}
       propertyPath: killsToCompleteObjective
@@ -49701,6 +49766,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -32.190002
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315839542190839936, guid: c996b53e9f849234393d1e90f68d1679,
+        type: 3}
+      propertyPath: nextLevel
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1315839542190839936, guid: c996b53e9f849234393d1e90f68d1679,
         type: 3}

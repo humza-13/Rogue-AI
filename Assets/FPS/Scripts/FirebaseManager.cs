@@ -50,7 +50,7 @@ public class FirebaseManager : MonoBehaviour
         StartCoroutine(UpdateUsernameAuth(auth.CurrentUser.DisplayName.ToString()));
         StartCoroutine(UpdateLogicPoints(PlayerPrefs.GetInt("LogicPoints")));
         StartCoroutine(UpdateKillPoints(PlayerPrefs.GetInt("KillPoints")));
-        PlayerPrefs.SetInt("LevelReached", PlayerPrefs.GetInt("LevelReached") + 1);
+        //PlayerPrefs.SetInt("LevelReached", PlayerPrefs.GetInt("LevelReached") + 1);
         StartCoroutine(UpdateLevel(PlayerPrefs.GetInt("LevelReached")));
         
        
@@ -97,14 +97,17 @@ public class FirebaseManager : MonoBehaviour
         else
         {
             //logged in 
+           
             _warning.text = "Logging In...";
-            ClearLoginFeilds(_email, _password);
             StartCoroutine(LoadUserData());
             yield return new WaitForSeconds(2);
+            ClearLoginFeilds(_email, _password);
             ChangeScene();
             _warning.text = "";
         }
     }
+
+ 
 
     private IEnumerator UpdateUsernameAuth(string _username)
     {
@@ -167,6 +170,7 @@ public class FirebaseManager : MonoBehaviour
 
     }
 
+
     public void RefreashDb()
     {
         StartCoroutine(LoadUserData());
@@ -226,6 +230,7 @@ public class FirebaseManager : MonoBehaviour
     }
     public void SignOut()
     {
+        StopCoroutine(LoadUserData());
         auth.SignOut();
         SceneManager.LoadScene("Login");
     }

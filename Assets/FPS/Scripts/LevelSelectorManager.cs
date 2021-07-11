@@ -11,6 +11,7 @@ public class LevelSelectorManager : MonoBehaviour
     public TMP_Text username;
     public TMP_Text logicScore;
     public TMP_Text killScore;
+    public bool isSignedin;
     
 
     private void Start()
@@ -18,11 +19,18 @@ public class LevelSelectorManager : MonoBehaviour
      
         firebase = GetComponent<FirebaseManager>();      
         username.text = firebase.getUserName();
+        isSignedin = true;
     }
 
     private void Update()
     {
-        firebase.RefreashDb();
+        if(isSignedin == true)
+        { 
+            firebase.RefreashDb();
+            Debug.Log("1");  
+        }
+       
+
         logicScore.text = PlayerPrefs.GetInt("LogicPoints").ToString();
         killScore.text = PlayerPrefs.GetInt("KillPoints").ToString();
 
