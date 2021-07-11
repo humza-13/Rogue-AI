@@ -27,7 +27,7 @@ public class LevelSelectorManager : MonoBehaviour
         if(isSignedin == true)
         { 
             firebase.RefreashDb();
-            Debug.Log("1");  
+             
         }
        
 
