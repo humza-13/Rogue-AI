@@ -57,6 +57,7 @@ public class RiddleActivator : MonoBehaviour
     public TextMeshProUGUI h_description;
 
     private bool i_active = false;
+   
   
    
 
@@ -120,6 +121,7 @@ public class RiddleActivator : MonoBehaviour
         private void OnTriggerEnter(Collider other)
     {
         i_active = true;
+        
         // opening riddle on trigger
         openRiddle();
     }
@@ -148,12 +150,12 @@ public class RiddleActivator : MonoBehaviour
 
     public void OpenHintWindow()
     {
-        if (i_active == true)
+        HintWindow.SetActive(true);
+        if (HintWindow.activeSelf && i_active == true)
         {
             h_title.text = riddle_setting.title;
-            riddle_setting.hints = riddle_setting.hints.Replace(".", "." + System.Environment.NewLine);
-            h_description.text = riddle_setting.hints;
-            HintWindow.SetActive(true);
+            h_description.text = riddle_setting.hints.Replace(".", "." + System.Environment.NewLine); 
+          
         }
   
     }
@@ -167,6 +169,8 @@ public class RiddleActivator : MonoBehaviour
     }
     public void CloseHint()
     {
+        h_title.text = "";
+        h_description.text = "";
         HintWindow.SetActive(false);  
     }
 
@@ -199,7 +203,9 @@ public class RiddleActivator : MonoBehaviour
             answer_input.text = "";
             r_tryAgain.SetActive(false);
             CloseRiddle();
+            i_active = false;
             riddle_setting.answer = null;
+            riddle_setting.hints = "";
             riddle_action(action_types);
             riddle_hat.SetActive(false);
 

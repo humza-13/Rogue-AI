@@ -541,12 +541,12 @@ PrefabInstance:
     - target: {fileID: 7391227526531506285, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 7391227526531506285, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 7391227526531506285, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
@@ -22123,6 +22123,15 @@ PrefabInstance:
       propertyPath: r_description
       value: 
       objectReference: {fileID: 1449402924}
+    - target: {fileID: 4829798006396850490, guid: d4b4d1e37480cb748a3ead102009a7ab,
+        type: 3}
+      propertyPath: riddle_setting.hints
+      value: 1- Write down all posible three digit combinations of 36.2- Now write
+        all thoes combinations in the form of sum.3- Why did previous crew needed
+        a third clue even though they knew their ship number.4- There must be a combination
+        which confuses them or maybe there are two!!.5- Notice the combinations with
+        same sum value.
+      objectReference: {fileID: 0}
     - target: {fileID: 4829798006402940450, guid: d4b4d1e37480cb748a3ead102009a7ab,
         type: 3}
       propertyPath: m_RootOrder
