@@ -21898,6 +21898,21 @@ PrefabInstance:
       propertyPath: m_Volume
       value: 0.12
       objectReference: {fileID: 0}
+    - target: {fileID: 4678688939268019454, guid: c996b53e9f849234393d1e90f68d1679,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.86678755
+      objectReference: {fileID: 0}
+    - target: {fileID: 4678688939268019454, guid: c996b53e9f849234393d1e90f68d1679,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4678688939268019454, guid: c996b53e9f849234393d1e90f68d1679,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -16
+      objectReference: {fileID: 0}
     - target: {fileID: 4870860624577300998, guid: c996b53e9f849234393d1e90f68d1679,
         type: 3}
       propertyPath: m_AnchoredPosition.y
